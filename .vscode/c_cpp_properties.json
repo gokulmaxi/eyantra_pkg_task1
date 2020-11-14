@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/gokulros/catkin_ws/devel/include/**",
+                "/opt/ros/noetic/include/**",
+                "/home/gokulros/catkin_ws/src/pkg_iot_ros_bridge/include/**",
+                "/home/gokulros/catkin_ws/src/pkg_task1/include/**",
+                "/home/gokulros/catkin_ws/src/turtle_hex/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu18",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}
