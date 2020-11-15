@@ -170,9 +170,7 @@ class SimpleActionServerTurtle:
         obj_msg_result.final_x = self._curr_x
         obj_msg_result.final_y = self._curr_y
         obj_msg_result.final_theta = self._curr_theta
-        parameters = {"id":"Sheet1", "turtle_x":obj_msg_result.final_x,"turtle_y":obj_msg_result.final_y,"turtle_theta":obj_msg_result.final_theta} 
-        URL = "https://script.google.com/macros/s/AKfycbygqa5aGx3uhf-6LiTARBTewjo1jBjIw1DeH2FH7sdC09CJLNJh/exec"
-        #response = requests.get(URL, params=parameters)
+
 
         rospy.loginfo("send goal result to client")
         self._sas.set_succeeded(obj_msg_result)
